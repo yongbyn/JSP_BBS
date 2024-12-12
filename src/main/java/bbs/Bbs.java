@@ -4,7 +4,7 @@ public class Bbs {
 
 	private int bbsID;
 	private String bbsTitle;
-	private String useID;
+	private String userID;
 	private String bbsDate;
 	private String bbsContent;
 	private int bbsAvailable;
@@ -20,11 +20,11 @@ public class Bbs {
 	public void setBbsTitle(String bbsTitle) {
 		this.bbsTitle = bbsTitle;
 	}
-	public String getUseID() {
-		return useID;
+	public String getUserID() {
+		return userID;
 	}
-	public void setUseID(String useID) {
-		this.useID = useID;
+	public void setUserID(String userID) {
+		this.userID = userID;
 	}
 	public String getBbsDate() {
 		return bbsDate;
